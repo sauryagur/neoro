@@ -1,6 +1,8 @@
 import Ripple from "@/components/ui/ripple";
 import {Button} from "@/components/ui/button"
 import {Textarea} from "@/components/ui/textarea"
+import { ChevronRight } from "lucide-react"
+ 
 import {
     Menubar,
     MenubarCheckboxItem,
@@ -24,7 +26,7 @@ export default function Home() {
         <>
             <Menubar>
                 <MenubarMenu>
-                    <MenubarTrigger>File</MenubarTrigger>
+                    <MenubarTrigger>Home</MenubarTrigger>
                     <MenubarContent>
                         <MenubarItem>
                             New Tab <MenubarShortcut>⌘T</MenubarShortcut>
@@ -111,13 +113,15 @@ export default function Home() {
             </Menubar>
 
             <div
-                className="relative flex h-[450px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+                className="relative flex h-[450px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl" style={{height:"650px"}}>
                 <Ripple/>
 
             </div>
-            <div className="grid w-full gap-2">
-                <Textarea placeholder="Type your message here." className={"border-4"}/>
-                <Button type="submit">Send</Button>
+            <div className="flex flex-row w-full gap-2">
+                <Textarea placeholder="Type your message here." className={"border-4 Main_textarea"}/>
+                <Button variant="outline" size="icon" className="sendButton" style={{marginTop:"15px"}}>
+                    <ChevronRight />
+                </Button>
             </div>
         </>
     );
