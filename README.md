@@ -1,4 +1,4 @@
-# Neoro
+# Neoro - Minimalist AI Journaling
 
 ## Overview
 **Neoro** is an AI-driven mental health platform designed to help individuals enhance mindfulness, manage stress, and achieve personal growth. By combining advanced AI with a human-centric design, Neoro empowers users with personalized meditation prompts, journaling tools, and emotional insights—all while ensuring data privacy and security.
