@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Neoro
 
-## Getting Started
+## Overview
+**Neoro** is an AI-driven mental health platform designed to help individuals enhance mindfulness, manage stress, and achieve personal growth. By combining advanced AI with a human-centric design, Neoro empowers users with personalized meditation prompts, journaling tools, and emotional insights—all while ensuring data privacy and security.
 
-First, run the development server:
+## Features
+- **Personalized Meditation**: AI-generated prompts tailored to individual needs and emotions.
+- **Journaling Tools**: Track thoughts, emotions, and reflections for greater self-awareness.
+- **AI Insights**: Adaptive support that evolves with your journey, acting like a personal coach.
+- **Privacy-Focused**: User data remains secure and confidential.
+- **Minimalist Design**: Simple, user-friendly interface for a calm and distraction-free experience.
 
+## Tech Stack
+- **Frontend**: React, Next.js, Tailwind CSS, ShadCN, MagicUI
+- **Backend**: Node.js
+- **Database**: MongoDB
+- **AI**: Gemini API for natural language processing
+- **Hosting**: Vercel (Frontend), AWS (Backend)
+
+## Installation
+### 1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/neoro.git
+   ```
+
+### 2. Navigate to the project directory:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd neoro
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Install the required dependencies:
+```bash
+npm install
+```
+### 4. Start the development server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 5. Open the app in your browser at http://localhost:3000
