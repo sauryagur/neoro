@@ -10,13 +10,6 @@
 - **Privacy-Focused**: User data remains secure and confidential.
 - **Minimalist Design**: Simple, user-friendly interface for a calm and distraction-free experience.
 
-## Tech Stack
-- **Frontend**: React, Next.js, Tailwind CSS, ShadCN, MagicUI
-- **Backend**: Node.js
-- **Database**: MongoDB
-- **AI**: Gemini API for natural language processing
-- **Hosting**: Vercel (Frontend), AWS (Backend)
-
 ## Installation
 ### 1. Clone the repository:
    ```bash
